@@ -1,0 +1,17 @@
+export const cardsImg = [
+    { src: "/img/aws.png", matched: false },
+    { src: "/img/css.png", matched: false },
+    { src: "/img/figma.png", matched: false },
+    { src: "/img/firebase.png", matched: false },
+    { src: "/img/html.png", matched: false },
+    { src: "/img/java.png", matched: false },
+    { src: "/img/javascript.png", matched: false },
+    { src: "/img/metiralui.png", matched: false },
+    { src: "/img/mongodb.png", matched: false },
+    { src: "/img/net.png", matched: false },
+    { src: "/img/next.png", matched: false },
+    { src: "/img/node.png", matched: false },
+    { src: "/img/react.png", matched: false },
+    { src: "/img/redux.png", matched: false },
+    { src: "/img/vue.png", matched: false },
+  ];

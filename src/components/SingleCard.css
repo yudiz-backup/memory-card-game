@@ -1,0 +1,39 @@
+.card {
+  position: relative;
+  height: 50%;
+  width: 50%;
+  margin-left: 100px;
+}
+.card img {
+  width: 50%;
+  display: block;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  border: 1px solid black;
+}
+
+.card .front {
+  transform: rotateY(90deg);
+  transition: all ease-in 0.2s;
+  position: absolute;
+}
+
+.filpped .front {
+  transform: rotateY(0deg);
+  transition-delay: 0.2s;
+}
+
+.card .back {
+  transition: all ease-in 0.2s;
+  transition-delay: 0.2s;
+}
+
+.card .back:hover {
+  box-shadow: 10px -5px 25px 0 rgb(255, 148, 237),
+    -10px 5px 25px 0 rgb(166, 233, 255);
+}
+
+.filpped .back {
+  transform: rotateY(90deg);
+  transition-delay: 0s;
+}
